@@ -1,0 +1,67 @@
+﻿div.menu
+{
+    margin:auto;
+    width: 60%;
+    padding-bottom: 10px;
+}
+a
+{
+    margin: auto;
+    font-size: 32px;
+    padding: 20px;
+    text-decoration: underline none;
+}
+div.gallery
+{
+    margin: auto;
+    width: 90%;
+    position: relative;
+    overflow: auto;
+    white-space: nowrap;
+}
+div.galleryfiles
+{
+    clear:both;
+    padding-top: 8px;
+}
+img.galleryimg
+{
+    height: 20%;
+    width: 20%;
+    padding: 4px;
+    border: 1px solid white;
+}
+img.galleryimg:hover
+{
+    border: 4px solid green;
+    cursor: pointer;
+    padding: 0px;
+}
+img#stageimg
+{
+    height: 60%;
+    width: 60%;
+    float: left;
+    padding-right: 6px;
+}
+p#stagetext
+{
+    text-align: justify;
+}
+button
+{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    float: right;
+    bottom: 0;
+}
+button:hover
+{
+    border: 2px solid green;
+}
+body
+{
+    color: white;
+    background-color: rgb(20,20,20);
+}
