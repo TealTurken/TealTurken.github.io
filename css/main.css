@@ -1,8 +1,7 @@
 ﻿div.menu
 {
     margin:auto;
-    width: 60%;
-    padding-bottom: 10px;
+    padding-top: 30px;
 }
 a
 {
@@ -10,6 +9,13 @@ a
     font-size: 32px;
     padding: 20px;
     text-decoration: underline none;
+}
+p#generalText
+{
+    font-size: 28px;
+    margin: auto;
+    width: 54%;
+    padding-top: 12px;
 }
 div.gallery
 {
@@ -19,46 +25,43 @@ div.gallery
     overflow: auto;
     white-space: nowrap;
 }
-div.galleryfiles
+div.galleryFiles
 {
     clear:both;
     padding-top: 8px;
 }
-img.galleryimg
+img#logo
+{
+    height: 20%;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    float: left;
+}
+img.galleryImg
 {
     height: 20%;
     width: 20%;
     padding: 4px;
     border: 1px solid white;
 }
-img.galleryimg:hover
+img.galleryImg:hover
 {
     border: 4px solid green;
     cursor: pointer;
     padding: 0px;
 }
-img#stageimg
+img#stageImg
 {
     height: 60%;
     width: 60%;
     float: left;
     padding-right: 6px;
 }
-p#stagetext
+p#stageText
 {
     text-align: justify;
-}
-button
-{
-    border: 1px solid white;
-    background-color: black;
-    color: white;
-    float: right;
-    bottom: 0;
-}
-button:hover
-{
-    border: 2px solid green;
 }
 body
 {

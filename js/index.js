@@ -1,14 +1,14 @@
 function showImage1(event) {
     event.preventDefault();
 
-    stageimg.src = "./img/spline_rotator.gif";
-    stageimg.alt = "Image 1";
-    stagetext.textContent = "All about my spline rotator!";
+    stageImg.src = "./img/spline_rotator.gif";
+    stageImg.alt = "Image 1";
+    stageText.textContent = "All about my spline rotator!";
 }
 
 function init() {
-    var stageimg = document.getElementById("stageimage");
-    var stagetext = document.getElementById("stagetext");
+    var stageImg = document.getElementById("stageImage");
+    var stageText = document.getElementById("stageText");
 
     var galleryImage1 = document.getElementById("img1");
     galleryImage1.addEventListener("click", showImage1, false);
