@@ -58,16 +58,6 @@ function showImage6(event) {
     stageText.textContent = "During play, the companion character follows the player character around wherever they go.";
 }
 
-function showImage7(event) {
-    event.preventDefault();
-
-    stageImg.src = "./img/Mariana_AlienAttack.gif";
-    stageImg.alt = "Image 7";
-    stageTitle.textContent = "Alien Pursuit";
-    stageSubTitle.textContent = "Mariana";
-    stageText.textContent = "In Mariana, subaquatic alien creatures constantly hunt you down while you wait for rescue to arrive. Your one means of defense is a stun gun with a long cooldown.";
-}
-
 function init() {
     var stageImg = document.getElementById("stageImage");
     var stageText = document.getElementById("stageText");
@@ -86,7 +76,5 @@ function init() {
     galleryImage5.addEventListener("click", showImage5, false);
     var galleryImage6 = document.getElementById("img6");
     galleryImage6.addEventListener("click", showImage6, false);
-    var galleryImage7 = document.getElementById("img7");
-    galleryImage7.addEventListener("click", showImage7, false);
 }
 window.addEventListener("load", init, false);

@@ -1,82 +1,91 @@
-﻿div.menu
-{
-    margin:auto;
-    padding-top: 30px;
-}
-a
-{
+﻿div.menu {
+    width: 31%;
     margin: auto;
-    font-size: 32px;
-    padding: 20px;
-    text-decoration: underline none;
+    margin-right: 0.5%;
+    padding-bottom: 1%;
+    background-color: rgba(20 20 20 / 0.2);
+    border: 2px solid black;
+    border-radius: 5%;
+    float: left;
+    white-space: pre-line;
 }
-#MMText
-{
+a#menuLink {
+    position: relative;
+    bottom: 14%;
     margin: auto;
-    width: 90%;
+    font-size: 200%;
     clear: left;
 }
-p#MMText
+#pageTitle
 {
-    font-size: 24px;
-}
-#MomoMako_Cover {
-    float: right;
-    height: 35%;
-    width: 35%;
-    padding-right: 40px;
-    padding-top: 120px;
-    padding-bottom: 10px;
+    font-size: 280%;
+    margin: auto;       
 }
 p#generalText
 {
-    font-size: 28px;
+    font-size: 180%;
     margin: auto;
-    width: 54%;
-    padding-top: 12px;
 }
-div.gallery
+#MomoMako_Cover 
+{
+    float: right;
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+h1#galleryText {
+    margin: auto;
+    margin-bottom: auto;
+    width: 28%;
+    font-size: 500%;
+    clear: right;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: rgba(250 250 20 / 0.40);
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+div.gallery 
 {
     margin: auto;
-    width: 90%;
+    width: 99%;
     position: relative;
     overflow: auto;
 }
 div.galleryFiles {
     clear: both;
-    padding: 8px;
+    padding: 0.5%;
     white-space: nowrap;
-    overflow: scroll;
-    background-color: rgb(20 20 20);
+    background-color: rgb(40 40 40);
+    overflow-y: hidden;
 }
-img#logo
-{
-    height: 20%;
-    width: 20%;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 25px;
+img#logo {
+    width: 30%;
     float: left;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 img.galleryImg
 {
     height: 20%;
     width: 20%;
-    padding: 4px;
+    padding: 0.57%;
     border: 1px solid white;
 }
 img.galleryImg:hover
 {
     border: 5px solid green;
     cursor: pointer;
-    padding: 0px;
+    padding: 0.2%;
 }
 img#stageImg
 {
     height: 60%;
     width: 60%;
     float: left;
-    padding-right: 8px;
+    padding-right: 0.7%;
 }
 .stageContent {
     text-align: center;
@@ -85,38 +94,45 @@ img#stageImg
 div.stageContent {
     margin: auto;
     border: 2px solid black;
-    border-radius: 16px;
-    margin-left: 675px;
+    border-radius: 5%;
+    margin-left: 60.1%;
 }
 #stageTitle
 {
-    margin-top: 4px;
-    margin-bottom: 0px;
+    margin-top: 0.6%;
+    margin-bottom: 0%;
 }
 #stageSubTitle
 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 p#stageText
 {
-    font-size: 18px;
+    font-size: 110%;
     text-align: left;
-    margin-top: 6px;
+    margin-top: 2%;
 }
-embed#resume
+embed#resume 
 {
-    margin: 12px;
+    margin: 1.5%;
+    width: 60%;
+    height: 1200px;
 }
-div#contactDiv {
+img#selfPic 
+{
+    float: right;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+div#contactInfo {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: rgba(250 250 20 / 0.40);
     margin: auto;
-    border: 3px solid black;
-    border-radius: 16px;
-    padding-right: 500px;
-    padding-bottom: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: rgba(0, 0, 0, 0.20);
+    width: 20%;
 }
 body {
     color: black;
