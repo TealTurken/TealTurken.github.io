@@ -3,9 +3,9 @@ function showImage1(event) {
 
     stageImg.src = "./img/spline_rotator.gif";
     stageImg.alt = "Image 1";
-    stageTitle.textContent = "Moving Objects";
+    stageTitle.textContent = "Moving Platforms";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "Shown is a moving object blueprint in Unreal Engine. The object can be changed freely and it follows along the constructed spline. The travel speed as well as whether it faces forwards along the path or rotates freely are available as well.";
+    stageText.textContent = "Shown is a moving platform blueprint in Unreal Engine. The chosen object can be changed freely and it follows along the constructed spline. The travel speed as well as whether it faces forwards along the path or rotates freely are available as well.";
 }
 
 function showImage2(event) {
@@ -15,7 +15,7 @@ function showImage2(event) {
     stageImg.alt = "Image 2";
     stageTitle.textContent = "Hammer Throw";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "The earliest case of the horizontal throw mechanic, now known as the hammer throw. The throw has to be charged for several seconds to achieve maximum distance while the rotation rate and guaged distance increase. It is intended for both characters to travel along this path with the larger one's weight dragging the smaller one.";
+    stageText.textContent = "Previously the horizontal throw mechanic, now known as the hammer throw. The throw has to be charged for Sseveral seconds to achieve maximum distance while the rotation rate and guaged distance increase. It is intended for both characters to travel along this path with Momo's weight dragging Mako along.";
 }
 
 function showImage3(event) {
@@ -25,7 +25,7 @@ function showImage3(event) {
     stageImg.alt = "Image 3";
     stageTitle.textContent = "Vertical Throw";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "The vertical throw mechanic wherein one character throws the other up to places neither can get to alone. An arch is shown to aid not only in aiming the throw, but in understanding the level of charge behind it.";
+    stageText.textContent = "The vertical throw mechanic wherein Momo throws Mako up to places neither can get to alone. An arch is shown to aid not only in aiming the throw, but in understanding the level of charge behind it.";
 }
 
 function showImage4(event) {
@@ -33,9 +33,9 @@ function showImage4(event) {
 
     stageImg.src = "./img/Code_MovingPlat.gif";
     stageImg.alt = "Image 4";
-    stageTitle.textContent = "Moving Objects Code";
+    stageTitle.textContent = "Moving Platforms Code";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "Shown is a moving object blueprint code.";
+    stageText.textContent = "Shown is the moving platform blueprint code, specifically along the timeline which handles the platform's travel time and rotation.";
 }
 
 function showImage5(event) {
@@ -45,7 +45,7 @@ function showImage5(event) {
     stageImg.alt = "Image 5";
     stageTitle.textContent = "Vertical Throw Code";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "Some of the code used for the vertical throw, this specifically handles the charge time and drawing the arc used for aiming.";
+    stageText.textContent = "Some of the code used for the vertical throw, this specifically handles the charge time and drawing the arc used for aiming. The horizontal and hammer throw code has a similar design to this.";
 }
 
 function showImage6(event) {
@@ -55,7 +55,7 @@ function showImage6(event) {
     stageImg.alt = "Image 6";
     stageTitle.textContent = "AI Companion Follow";
     stageSubTitle.textContent = "Momo and Mako";
-    stageText.textContent = "During play, the companion character follows the player character around wherever they go.";
+    stageText.textContent = "During play, Mako follows Momo around wherever she goes. There's a minimum distance when Mako stops and there's a small bit of 'drag' so his movement appears more organic.";
 }
 
 function init() {
