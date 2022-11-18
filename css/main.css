@@ -23,10 +23,10 @@ a#menuLink {
 }
 p#generalText
 {
-    font-size: 180%;
+    font-size: 150%;
     margin: auto;
 }
-#MomoMako_Cover 
+#Game_Cover 
 {
     float: right;
     width: 32%;
@@ -37,7 +37,8 @@ p#generalText
 }
 h1#galleryText {
     margin: auto;
-    margin-bottom: auto;
+    margin-bottom: 0.5%;
+    margin-top: 1%;
     width: 28%;
     font-size: 500%;
     clear: right;
@@ -45,7 +46,6 @@ h1#galleryText {
     border-radius: 2%;
     background-color: rgba(250 250 20 / 0.40);
     text-align: center;
-    margin-bottom: 0.5%;
 }
 div.gallery 
 {
@@ -60,10 +60,6 @@ div.galleryFiles {
     white-space: nowrap;
     background-color: rgb(40 40 40);
     overflow-y: hidden;
-}
-p#galleryFileText
-{
-
 }
 img#logo {
     width: 30%;
@@ -130,6 +126,43 @@ img#selfPic
     border: 2px solid black;
     border-radius: 2%;
 }
+img#lightsOut
+{
+    float: left;
+    width: 45%;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+div#lightsOutContent {
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: rgba(20 20 20 / 0.20);
+    margin: auto;
+    margin-right: 1%;
+    width: 20%;
+    float: left;
+}div#alienAttackContent {
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: rgba(20 20 20 / 0.20);
+    margin: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 20%;
+    float: right;
+}
+p#lightsOutText
+{
+    font-size: 120%;
+    text-align: center;
+}
+img#alienAttack
+{
+    float: right;
+    width: 45%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
 div#contactInfo {
     border: 2px solid black;
     border-radius: 2%;
@@ -150,6 +183,10 @@ table#projectsTable
     margin: auto;
     width: 42%;
 }
+td#tableText
+{
+    border-bottom: solid 2px black;
+}
 a#tableText
 {
     text-align: left;
@@ -159,6 +196,12 @@ img#tableArt
 {
     width: 10%;
     float: right;
+}
+img#tableArt2
+{
+    width: 4%;
+    float: right;
+    margin-right: 2%;
 }
 body {
     color: black;
