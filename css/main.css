@@ -125,6 +125,7 @@ img#selfPic
     width: 25%;
     border: 2px solid black;
     border-radius: 2%;
+    margin-left: 0.5%;
 }
 img#lightsOut
 {
