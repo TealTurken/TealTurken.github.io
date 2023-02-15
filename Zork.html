@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src=""></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Projects - Zork</title>
+</head>
+<body>
+    <div class="menu">
+        <img src="img/TealTurken_Logo.png" alt="" id="logo" />
+        <a id="menuLink" href="projects.html">Projects and Work</a>
+        <a id="menuLink" href="resume.html">Resume</a>
+        <a id="menuLink" href="index.html">About Me</a>
+    </div>
+    <h1 id="pageTitle"><b>Zork in Unity</b></h1>
+    <img id="Game_Cover" src="img/ZorkUnity.png" />
+    <p id="generalText">
+        Zork in Unity was a solo, 12 week long project to recreate the text adventure game in Unity. It was not to recreate the entire
+        experience, but it does succeed in recreating the bulk of the beginning experience using JSON files to fill in all of the data. For example,
+        rooms and the content of those rooms is filled in with JSON files. This allows the game to be built entirely outside of the code that runs it.
+    </p>
+    <img id="lightsOut" src="img/ZorkJson.png" />
+    <div id="lightsOutContent">
+        <p id="lightsOutText">The Json file Zork is using to generate all of the rooms and items as well as define the starting location.</p>
+    </div>
+    <p id="generalText">
+        There's a simplified dictionary of actions that roots through short and long hand versions of commands. The short of it is that the system
+        accounts for interacting with items that are not only in the room, but also within the inventory and if the items are within containers that
+        are appropriately opened or closed. Items that are inside other items can be searched for, opened, taken or placed inside other items without issue.
+    </p>
+    <img id="alienAttack" src="img/ZorkCode.png" />
+    <div id="alienAttackContent">
+        <p id="lightsOutText">The commands that can be inputted and how they're parsed.</p>
+    </div>
+</body>
+</html>
