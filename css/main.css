@@ -1,20 +1,21 @@
 ﻿div.menu {
-    width: 31%;
+    width: 31.45%;
     margin: auto;
-    margin-right: 0.5%;
+    margin-right: 1%;
     padding-bottom: 1%;
     background-color: rgba(20 20 20 / 0.2);
     border: 2px solid black;
     border-radius: 5%;
     float: left;
-    white-space: pre-line;
 }
 a#menuLink {
     position: relative;
-    bottom: 14%;
+    right: 2%;
+    bottom: 18%;
     margin: auto;
     font-size: 200%;
-    clear: left;
+    clear: right;
+    float: right;
 }
 #pageTitle
 {
@@ -25,6 +26,8 @@ p#generalText
 {
     font-size: 150%;
     margin: auto;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 #Game_Cover 
 {
@@ -66,6 +69,7 @@ img#logo {
     float: left;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 5%;
 }
 img.galleryImg
 {
@@ -117,7 +121,7 @@ embed#resume
 {
     margin: 1.5%;
     width: 60%;
-    height: 1200px;
+    height: 1000px;
 }
 img#selfPic 
 {
