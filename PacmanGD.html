@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Projects - Pacman in Godot</title>
+</head>
+<body>
+    <div class="menu">
+        <img src="img/TealTurken_Logo.png" alt="" id="logo" />
+        <a id="menuLink" href="projects.html">Projects and Work</a>
+        <a id="menuLink" href="resume.html">Resume</a>
+        <a id="menuLink" href="index.html">About Me</a>
+        <a id="menuLink" href="contact.html">Contact Info</a>
+    </div>
+    <h1 id="pageTitle"><b>Pacman in Godot</b></h1>
+    <img id="Game_Cover" src="img/PacmanGD_Title.png" /> 
+    <p id="generalText"> Pacman in Godot is a project I created to better understand the Godot engine. Prior to the project, I had 
+        no experience with the engine. The assets and directions for constructing this project are from <a href="https://www.youtube.com/watch?v=CncJvOEM3OA&t">CyberPotato on Youtube</a>,
+        codebase on <a href="https://github.com/wojciech-bilicki/Pacman_Tutorial">Github here</a> under the name Wojciech Bilicki.
+        <br> <br>
+        I worked in Version 4.2.1 and had to make changes from the guide in order match the output shown. One such difference is the pathing for the ghosts
+        which doesn't use a resource file as was shown. Another difference was the inclusion of a title screen, which while using the font asset from the guide,
+        a title screen was not created in the demonstration and is my addition. My recreation of the game is not totally accurate with a few features such as fruits
+        missing and a bug wherein Pacman may attempt to turn when he can't resulting in getting stuck on corners. <br> <br>
+    </p>
+    <img id="lightsOut" src="img/PacmanGD_1.png"/>
+    <p id="generalText"> The game features lives and points tracking, different states for the ghosts and a proper reseting of the 
+        game on death that either starts the player and ghosts in the same board if the player has lives or game over if the player 
+        is out of lives.  <br> <br> <br> <br> <br> <br> <br> <br>
+    </p>
+    <img id="alienAttack" src="img/PacmanGD_2.png" />
+    <div id="alienAttackContent">
+        <p id="lightsOutText">Your typical ghosts fleeing and being eaten after collecting a power pellet.</p>
+    </div>
+    <p id="generalText">
+        Collecting a power pellet empowers Pacman to be able to eat ghosts while they run. Ghosts that are inside the center box
+        are unaffected by the collection of power pellets as well as ghosts that are already eaten. 
+        (and I've included a secret if all 4 power pellets are eaten during the fleeing state for the ghosts!) <br> <br> <br>
+    </p>
+    <img id="lightsOut" src="img/PacmanGD_Secret.png"/> <br> <br>
+    <div id="lightsOutContent">
+        <p id="lightsOutText">Something's not right here...</p>
+    </div>
+</body>
+</html>
